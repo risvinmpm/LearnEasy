@@ -23253,8 +23253,9 @@ edit .quantity-edit button {
 
 .progress-wrap {
   position: fixed;
-  right: 30px;
-  bottom: 50px;
+  left: 50%; /* Center horizontally */
+  bottom: 20px;
+  transform: translate(-50%, 15px); /* Center and animate up */
   height: 46px;
   width: 46px;
   cursor: pointer;
@@ -23263,9 +23264,10 @@ edit .quantity-edit button {
   z-index: 10000;
   opacity: 1;
   visibility: hidden;
-  transform: translateY(15px);
   -webkit-transition: all 200ms linear;
   transition: all 200ms linear;
+  justify-content: center;
+  align-items: center;
 }
 
 .progress-wrap.active-progress {
@@ -24798,3 +24800,30 @@ header.header-three .sub-dropdown .submenu.third-lvl.base {
   height: 51px;
 }
 /*# sourceMappingURL=../maps/style.css.map */
+
+.whatsapp-float {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #25d366;
+  color: white;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  text-align: center;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.3s ease;
+}
+
+.whatsapp-float:hover {
+  background-color: #1ebc5a;
+}
+
+.whatsapp-float img {
+  width: 30px;
+  height: 30px;
+}

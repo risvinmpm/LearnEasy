@@ -895,3 +895,9 @@
 })(jQuery, window)
 
 
+// Optional: Track clicks or show/hide based on scroll
+document.getElementById('whatsapp-button').addEventListener('click', function () {
+  console.log('WhatsApp button clicked!');
+});
+
+
