@@ -24828,3 +24828,14 @@ header.header-three .sub-dropdown .submenu.third-lvl.base {
   width: 30px;
   height: 30px;
 }
+
+.whatsapp-button {
+  background-color: #25D366;
+  color: white;
+  padding: 15px 25px;
+  font-size: 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+}
