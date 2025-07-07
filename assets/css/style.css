@@ -24839,3 +24839,43 @@ header.header-three .sub-dropdown .submenu.third-lvl.base {
   cursor: pointer;
   text-decoration: none;
 }
+
+.countdown-box {
+  max-width: 600px;
+  width: 100%;
+  margin: auto;
+  margin-bottom: 50px;
+}
+
+.countdown {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 20px;
+  flex-wrap: wrap;
+}
+
+.countdown div {
+  background: #1f1f1f;
+  padding: 16px 20px;
+  border-radius: 6px;
+  min-width: 80px;
+}
+
+.countdown span {
+  font-size: 2rem;
+  color: var(--color-primary-2);
+  display: block;
+}
+
+.countdown small {
+  font-size: 0.85rem;
+  color: #aaa;
+}
+
+
+/* .swiper-slide .rts-btn.btn-primary2  {
+  display: flex;
+  justify-content: left;
+  margin: 0px 110px !important;
+} */
